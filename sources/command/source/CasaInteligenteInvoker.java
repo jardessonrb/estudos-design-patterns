@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CasaInteligenteInvoker {
-    private Map<String, CasaInteligenteCommand> commands;
+    private Map<String, Command> commands;
 
     public CasaInteligenteInvoker(){
         this.commands = new HashMap();
     }
 
-    public void addCommand(String key, CasaInteligenteCommand command){
+    public void addCommand(String key, Command command){
         if(this.commands.containsKey(key)){
             return;
         }

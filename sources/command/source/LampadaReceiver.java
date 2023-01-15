@@ -1,11 +1,11 @@
 package sources.command.source;
 
-public class Lampada {
+public class LampadaReceiver {
     private Boolean isOn = false;
     private int intensidade = 50;
     private String nome;
 
-    public Lampada(String nome){
+    public LampadaReceiver(String nome){
         this.nome = nome;
     }
 

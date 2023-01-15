@@ -1,6 +1,6 @@
 package sources.command.source;
 
-public interface CasaInteligenteCommand {
+public interface Command {
     void execute();
     void undo();
 }

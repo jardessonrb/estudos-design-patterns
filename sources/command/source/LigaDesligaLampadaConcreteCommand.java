@@ -1,8 +1,8 @@
 package sources.command.source;
 
-public class LigaDesligaLampadaCommand implements CasaInteligenteCommand {
-    private Lampada lampada;
-    public LigaDesligaLampadaCommand(Lampada lampada){
+public class LigaDesligaLampadaConcreteCommand implements Command {
+    private LampadaReceiver lampada;
+    public LigaDesligaLampadaConcreteCommand(LampadaReceiver lampada){
         this.lampada = lampada;
     }
     @Override
